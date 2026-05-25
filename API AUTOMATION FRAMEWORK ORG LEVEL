@@ -1,0 +1,106 @@
+{
+  "Magic Prompt Formula": {
+    "Context": "You are a Senior Test Automation Architect with 15+ years of experience designing enterprise-level API automation frameworks for microservices architectures. You specialize in Java 17, Spring Boot, Cucumber BDD, Gherkin, JUnit, REST API testing, scalable framework design, reusable utilities, CI/CD integration, and enterprise automation best practices.",
+    
+    "Task": "Design and generate a highly scalable, reusable, enterprise-grade API automation framework where onboarding a new API or microservice requires updating only the feature file or configuration, without changing core framework code.",
+    
+    "Instruction": [
+      "Use Java 17 as the programming language.",
+      "Use Spring Boot as the core framework.",
+      "Use Cucumber BDD with Gherkin syntax for feature files.",
+      "Use JUnit for test execution and reporting.",
+      "Follow enterprise-level layered architecture and design patterns.",
+      "Design the framework to support multiple microservices dynamically.",
+      "Feature files must be fully generic and reusable.",
+      "Ensure adding a new API requires only updating service name, endpoint, payload, or test data in feature/configuration files.",
+      "Implement dynamic request builders and endpoint resolution.",
+      "Use centralized configuration management.",
+      "Include environment management for DEV, QA, STAGE, and PROD.",
+      "Support reusable API clients and utility layers.",
+      "Use dependency injection and modular architecture.",
+      "Implement detailed logging and reporting.",
+      "Support parallel execution and scalability.",
+      "Add reusable hooks, runners, step definitions, and utilities.",
+      "Use best practices for maintainability, readability, and low code duplication.",
+      "Generate sample folder structure and explain purpose of each layer.",
+      "Suggest design patterns used in the framework.",
+      "Include CI/CD integration recommendations.",
+      "Include Maven or Gradle dependency setup.",
+      "Provide sample reusable feature file templates.",
+      "Provide dynamic test data management strategy.",
+      "Explain how to onboard a new microservice with minimal changes.",
+      "Ensure the framework follows SOLID principles and clean architecture.",
+      "Include API validation strategies such as schema validation, response validation, and status validation.",
+      "Suggest how to integrate reporting tools like Allure or Extent Reports.",
+      "Provide recommendations for future scalability and enterprise adoption."
+    ],
+    
+    "Data": {
+      "TECH_STACK": {
+      "Language": "Java 17",
+      "Framework": "Spring Boot",
+      "BDD": "Cucumber + Gherkin",
+      "Testing": "JUnit",
+      "BuildTool": "Maven",
+      "APIClient": "RestAssured",
+      "Reporting": "Extent",
+      "CI_CD": "GitHub Actions",
+      "Containerization": "[Docker/Kubernetes Optional]"
+      },
+      
+      "FRAMEWORK_REQUIREMENTS": {
+        "GenericFeatureFiles": true,
+        "DynamicEndpointHandling": true,
+        "MicroserviceDrivenExecution": true,
+        "EnvironmentSupport": ["DEV", "QA", "STAGE", "PROD"],
+        "ParallelExecution": true,
+        "CentralizedConfig": true,
+        "ReusableUtilities": true,
+        "DynamicPayloadHandling": true,
+        "SchemaValidation": true,
+        "Logging": true,
+        "RetryMechanism": true,
+        "AuthenticationSupport": ["OAuth2", "JWT", "Bearer Token", "API Key"],
+        "DatabaseValidation": "[Optional]",
+        "KafkaValidation": "[Optional]",
+        "CloudSupport": "[Optional]"
+      },
+      
+      "EXPECTED_OUTPUT": [
+        "Complete enterprise framework architecture",
+        "Folder structure",
+        "Reusable feature file design",
+        "Sample step definition structure",
+        "Dynamic request builder approach",
+        "Configuration management strategy",
+        "Code examples",
+        "Dependency setup",
+        "Design patterns explanation",
+        "CI/CD integration strategy",
+        "Scalability recommendations",
+        "Best practices",
+        "Future enhancements"
+      ],
+      
+      "OPTIONAL_ENHANCEMENTS": [
+        "Swagger/OpenAPI integration",
+        "Self-healing API validation",
+        "AI-based test data generation",
+        "Contract testing",
+        "WireMock service virtualization",
+        "Database automation layer",
+        "Kafka event validation",
+        "Cloud-native execution",
+        "Dockerized execution",
+        "Kubernetes support",
+        "Dynamic tagging strategy",
+        "Test management integration",
+        "Slack/Teams notifications",
+        "Grafana/Prometheus monitoring",
+        "Security testing integration",
+        "Performance testing hooks",
+        "Multi-tenant support"
+      ]
+    }
+  }
+}
